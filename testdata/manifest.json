@@ -1,0 +1,26 @@
+{
+  "clip": {
+    "path": "clip.wav",
+    "sample_rate": 48000,
+    "samples": 96000,
+    "melspec": {
+      "path": "clip_melspec.f32",
+      "n_mels": 48,
+      "n_frames": 201
+    },
+    "segments": 47,
+    "scores": {
+      "mos": 4.779813766479492,
+      "noi": 4.159073352813721,
+      "dis": 4.604313373565674,
+      "col": 4.371349334716797,
+      "loud": 4.604766368865967
+    }
+  },
+  "resample": {
+    "path": "clip_16k.wav",
+    "from_rate": 16000,
+    "to_rate": 48000,
+    "reference": "clip_16k_upsampled.f32"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "model": "dim",
+  "sr": 48000,
+  "n_fft": 4096,
+  "hop_length_s": 0.01,
+  "win_length_s": 0.02,
+  "n_mels": 48,
+  "fmax": 20000,
+  "seg_length": 15,
+  "seg_hop_length": 4,
+  "outputs": [
+    "mos",
+    "noi",
+    "dis",
+    "col",
+    "loud"
+  ]
+}

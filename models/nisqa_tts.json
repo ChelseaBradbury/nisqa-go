@@ -1,0 +1,14 @@
+{
+  "model": "tts",
+  "sr": 48000,
+  "n_fft": 4096,
+  "hop_length_s": 0.01,
+  "win_length_s": 0.02,
+  "n_mels": 48,
+  "fmax": 8000,
+  "seg_length": 15,
+  "seg_hop_length": 1,
+  "outputs": [
+    "mos"
+  ]
+}
